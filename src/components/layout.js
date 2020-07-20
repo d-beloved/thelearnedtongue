@@ -13,24 +13,40 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath || location.pathname === blogPath) {
       header = (
-        <h1
+        <div
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
+            display: 'flex',
+            // justifyContent: 'space-between'
+            padding: `${rhythm(2.5)} ${rhythm(4)} ${rhythm(0)}`,
           }}
         >
-          <Link
+          <div
             style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
+              flex: '1',
+              marginTop: 0,
             }}
-            to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            {title}
-          </Link>
-        </h1>
+            <img style={{width: '100%', height: '100%'}} src="../pages/altLogo.png" alt="Logo" />
+          </div>
+          <h1
+            style={{
+              ...scale(1),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: `none`,
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
+              to={`/`}
+            >
+              {title}
+            </Link>
+          </h1>
+        </div>
       )
     } else {
       header = (
@@ -59,8 +75,8 @@ class Layout extends React.Component {
           style={{
             marginLeft: `auto`,
             marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+            // maxWidth: rhythm(35),
+            // padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           }}
         >
           <header>{header}</header>

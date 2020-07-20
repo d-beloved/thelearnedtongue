@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     // edit below
     title: `The Learned tongue`,
-    author: `d-beloved`,
+    author: `The Learned tongue`,
     description: `Am awesome blog dedicated to bringing the word of grace to all men`,
     siteUrl: `https://www.thelearnedtongue.com/`,
     social: {
@@ -72,14 +72,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `The Learned Tongue`,
+        short_name: `TLT`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ee3135`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/altLogo.png`,
       },
     },
     {
