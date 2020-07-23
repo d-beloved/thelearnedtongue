@@ -27,6 +27,10 @@ const ButtonWrapper = styled.button`
   &:hover {
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.25);
   }
+
+  &:focus {
+    outline: none;
+  }
 `
 
 export default Button
