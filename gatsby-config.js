@@ -79,7 +79,7 @@ module.exports = {
         theme_color: `#ee3135`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/altLogo.png`,
+        icon: `content/assets/Logo_crop.png`,
       },
     },
     {

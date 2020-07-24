@@ -3,7 +3,6 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import logo from "../../../content/assets/Logo_crop.png"
 
-// import { rhythm, scale } from "../../utils/typography"
 import layoutStyle from './layout.module.scss';
 
 class Layout extends React.Component {
@@ -79,9 +78,9 @@ class Layout extends React.Component {
           <main className={layoutStyle.main}>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Handcrafted by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          D-Beloved
         </Footer>
       </div>
     )
@@ -92,6 +91,7 @@ const Footer = styled.footer`
   text-align: center;
   margin: 20px;
   font-size: 11px;
+  font-weight: 600;
 `
 
 export default Layout
