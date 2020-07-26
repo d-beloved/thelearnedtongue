@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `The Learned tongue`,
     author: `The Learned tongue`,
-    description: `Am awesome blog dedicated to bringing the word of grace to all men`,
+    description: `An awesome blog dedicated to bringing the word of grace to all men`,
     siteUrl: `https://www.thelearnedtongue.com/`,
     social: {
       twitter: `daveMkeji`,
@@ -79,7 +79,7 @@ module.exports = {
         theme_color: `#ee3135`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/Logo_crop.png`,
+        icon: `content/assets/Logo.png`,
       },
     },
     {

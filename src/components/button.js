@@ -6,7 +6,7 @@ const Button = props => (
 )
 
 const ButtonWrapper = styled.button`
-  display: block;
+  display: ${props => props.props.display || "block"};
   border: none;
   text-align: center;
   box-sizing: border-box;

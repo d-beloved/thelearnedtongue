@@ -1,0 +1,33 @@
+@import '../../content/styles/breakpoint';
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .inner {
+    margin-top: 50px;
+    width: 600px;
+    animation: fadein 2s;
+
+    .heading {
+      margin-top: 0;
+
+      @include mobile {
+        font-size: 25px;
+        max-width: 80%;
+      }
+    }
+
+    .welcome {
+      @include mobile {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(50px);}
+  to   { opacity: 1; transform: translateY(0);}
+}

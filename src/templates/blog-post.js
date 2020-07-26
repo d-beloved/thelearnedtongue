@@ -2,10 +2,10 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
-import Bio from "../components/bio"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import styles from './blogpost.module.scss'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -19,16 +19,9 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <div style={{ margin: "0 15rem 50px" }}>
-          <h1>{post.frontmatter.title}</h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-              marginTop: rhythm(-1),
-            }}
-          >
+        <div className={styles.post}>
+          <h1 className={styles.heading}>{post.frontmatter.title}</h1>
+          <p className={styles.date}>
             {post.frontmatter.date}
           </p>
           <MDXRenderer>{post.body}</MDXRenderer>
@@ -37,9 +30,9 @@ class BlogPostTemplate extends React.Component {
               marginBottom: rhythm(1),
             }}
           />
-          {/* <Bio /> */}
 
           <ul
+          className={styles.movement}
             style={{
               display: `flex`,
               flexWrap: `wrap`,
@@ -48,16 +41,16 @@ class BlogPostTemplate extends React.Component {
               padding: 0,
             }}
           >
-            <li>
+            <li style={{color: "#7d4c46"}}>
               {previous && (
-                <Link to={`/blog${previous.fields.slug}`} rel="prev">
+                <Link style={{color: "#7d4c46"}} to={`/blog${previous.fields.slug}`} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link to={`/blog${next.fields.slug}`} rel="next">
+                <Link style={{color: "#7d4c46"}} to={`/blog${next.fields.slug}`} rel="next">
                   {next.frontmatter.title} →
                 </Link>
               )}

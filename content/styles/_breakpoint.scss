@@ -1,0 +1,26 @@
+$break-point-mobile: 480px;
+$break-point-tablet: 768px;
+
+@mixin mobile() {
+  @media (max-width: $break-point-mobile) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (max-width: $break-point-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 769px) {
+    @content;
+  }
+}
+
+@mixin largeDesktop {
+  @media (min-width: 1300px) {
+    @content;
+  }
+}

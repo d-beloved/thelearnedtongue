@@ -1,0 +1,24 @@
+@import "../../content/styles/breakpoint";
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .heading {
+    @include tablet {
+      font-size: 25px;
+    }
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
+  .info {
+    @include mobile {
+      font-size: 12px;
+    }
+  }
+}

@@ -5,6 +5,7 @@ import logo from "../../../content/assets/Logo_crop.png"
 
 import layoutStyle from './layout.module.scss';
 
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -27,7 +28,7 @@ class Layout extends React.Component {
               <img src={logo} alt="Logo" />
             </Link>
           </div>
-          <h3 className={layoutStyle.right}>
+          <h3 className={`${title ? layoutStyle.right : ""}`}>
             <Link
               style={{
                 boxShadow: `none`,
@@ -72,16 +73,18 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div className={layoutStyle.wrapper}>
-        <div className={layoutStyle.inside}>
-          <header className={layoutStyle.header}>{top}</header>
-          <main className={layoutStyle.main}>{children}</main>
+      <div className={layoutStyle.width}>
+        <div className={layoutStyle.wrapper}>
+          <div className={layoutStyle.inside}>
+            <header className={layoutStyle.header}>{top}</header>
+            <main className={layoutStyle.main}>{children}</main>
+          </div>
+          <Footer>
+            © {new Date().getFullYear()}, Handcrafted by
+            {` `}
+            D-Beloved
+          </Footer>
         </div>
-        <Footer>
-          © {new Date().getFullYear()}, Handcrafted by
-          {` `}
-          D-Beloved
-        </Footer>
       </div>
     )
   }
@@ -92,6 +95,7 @@ const Footer = styled.footer`
   margin: 20px;
   font-size: 11px;
   font-weight: 600;
+  z-index: 1;
 `
 
 export default Layout

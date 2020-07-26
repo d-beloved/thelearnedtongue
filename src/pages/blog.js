@@ -1,11 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-// import Bio from "../components/bio"
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
-import Button from "../components/button"
+import styles from './blog.module.scss'
 
 class Blog extends React.Component {
   render() {
@@ -16,26 +14,19 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        {/* <Bio /> */}
-        <div style={{ margin: "0 15rem 50px" }}>
+        <div className={styles.blog}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link
-                    style={{ boxShadow: `none`, color: `#7d4c26` }}
-                    to={`/blog${node.fields.slug}`}
+                <h3 className={styles.heading}>
+                  <Link to={`/blog${node.fields.slug}`}
                   >
                     {title}
                   </Link>
                 </h3>
-                <small>{node.frontmatter.date}</small>
-                <p
+                <small className={styles.date}>{node.frontmatter.date}</small>
+                <p className={styles.text}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
@@ -44,9 +35,6 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        {/* <Link to="/">
-          <Button marginTop="85px">Go Home</Button>
-        </Link> */}
       </Layout>
     )
   }

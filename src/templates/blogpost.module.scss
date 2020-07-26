@@ -1,0 +1,37 @@
+@import '../../content/styles/breakpoint';
+$mainColor: #7d4c46;
+
+.post {
+  margin: 0 8rem 50px 10rem;
+
+  @include tablet {
+    margin: 0 auto;
+  }
+
+  .heading {
+    margin: 3.5rem 0 1.75rem;
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
+  .date {
+    font-size: 0.83255rem;
+    line-height: 1.75rem;
+    display: block;
+    margin-bottom: 1.75rem;
+    margin-top: -1.75rem;
+
+    @include mobile {
+      font-size: 10px;
+    }
+  }
+
+  .movement {
+    @include mobile {
+      font-size: 13px;
+      margin-left: 0;
+    }
+  }
+}
