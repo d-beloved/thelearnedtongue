@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
             <p className={styles.welcome}>
               As wisdom is the principal thing, it's paramount to daily ingest
               words of wisdom, especially in a world where vain philosophies of
-              men abound. Here's a save haven, where you not only get wisdom,
+              men abound. Here's a safe haven, where you not only get wisdom,
               but you are inspired to also get understanding.
             </p>
             <Link className={styles.action} to="/blog/">
