@@ -24,13 +24,13 @@ $mainColor: #7d4c46;
 
     .date {
       @include mobile {
-        font-size: 10px;
+        font-size: 12px;
       }
     }
 
     .text {
       @include mobile {
-        font-size: 13px;
+        font-size: 15px;
       }
     }
   }

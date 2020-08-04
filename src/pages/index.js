@@ -17,19 +17,23 @@ class IndexPage extends React.Component {
         />
         <div className={styles.home}>
           <div className={styles.inner}>
-            <h1 className={styles.heading}>
-              The Learned Tongue
-            </h1>
-            <p className={styles.welcome}>
-              Welcome to your new Gatsby website. You are on your home page.
+            <h1 className={styles.heading}>The Learned Tongue</h1>
+            <p className={styles.welcome} style={{fontWeight: "900"}}>
+              Welcome to the haven of wisdom.
             </p>
             <p className={styles.welcome}>
-              This starter comes out of the box with styled components and
-              Gatsby's default starter blog running on Netlify CMS.
+              As wisdom is the principal thing, it's paramount to daily ingest
+              words of wisdom, especially in a world where vain philosophies of
+              men abound. Here's a save haven, where you not only get wisdom,
+              but you are inspired to also get understanding.
             </p>
-            <p className={styles.welcome}>Now go build something great!</p>
             <Link className={styles.action} to="/blog/">
-              <Button display="inline" marginTop="20px" radius="60px" background="#7d4c26">
+              <Button
+                display="inline"
+                marginTop="20px"
+                radius="60px"
+                background="#7d4c26"
+              >
                 Go to Blog
               </Button>
             </Link>
