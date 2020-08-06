@@ -1,5 +1,5 @@
 ---
-path: Relationships
+path: Intimacy
 date: 2020-08-06T19:38:53.849Z
 title: Getting Intimate With God (3).
 description: "Right and consistent fellowship with God can't be overemphasized.
