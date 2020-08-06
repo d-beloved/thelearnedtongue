@@ -1,5 +1,5 @@
 ---
-path: Relationships
+path: Intimacy
 date: 2020-08-06T19:15:40.496Z
 title: Getting Intimate With God (2).
 description: What is your fellowship with God like? It is beyond routinely
