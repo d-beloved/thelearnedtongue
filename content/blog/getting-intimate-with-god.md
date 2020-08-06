@@ -1,5 +1,5 @@
 ---
-path: Relationships
+path: Intimacy
 date: 2020-08-06T18:38:10.317Z
 title: "Getting Intimate With God. "
 description: What next after coming to the point of salvation? It's time to
