@@ -7,9 +7,11 @@ description: Every man is defined by three relationships; relationship with God,
   relationships tell a lot about who he/she is, what he/she does and who he/she
   is going to be.
 ---
-Luke 10:27: *And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself.*
+
 
 ![](../assets/photo-1495653797063-114787b77b23.jpg)
+
+Luke 10:27: *And he answering said, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy strength, and with all thy mind; and thy neighbour as thyself.*
 
 **Every man is defined by three relationships; relationship with God, relationship with self, and relationship with people.** Each of these relationships tell a lot about who he/she is, what he/she does and who he/she is going to be.
 
