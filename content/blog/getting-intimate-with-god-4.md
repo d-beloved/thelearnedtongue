@@ -1,5 +1,5 @@
 ---
-path: Relationships
+path: Intimacy
 date: 2020-08-06T20:28:49.364Z
 title: Getting Intimate With God (4).
 description: There's a reason for your existence. There's a purpose for your
