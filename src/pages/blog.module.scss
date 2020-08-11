@@ -13,7 +13,7 @@ $mainColor: #7d4c46;
       margin: 3rem 0 0.4375rem;
 
       @include mobile {
-        font-size: 18px;
+        font-size: 16px;
       }
 
       a {
@@ -23,6 +23,11 @@ $mainColor: #7d4c46;
     }
 
     .date {
+      .readTime {
+        color: grey;
+        font-size: 0.75rem;
+        margin-left: 5px;
+      }
       @include mobile {
         font-size: 12px;
       }

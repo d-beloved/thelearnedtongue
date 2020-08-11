@@ -45,7 +45,7 @@ class Layout extends React.Component {
     } else {
       top = (
         <>
-          <div className={layoutStyle.left}>
+          <div className={layoutStyle.xleft}>
             <Link
               style={{
                 boxShadow: `none`,
@@ -57,7 +57,7 @@ class Layout extends React.Component {
               <img src={logo} alt="Logo" />
             </Link>
           </div>
-          <h3 className={layoutStyle.right}>
+          <h3 className={layoutStyle.xright}>
             <Link
               style={{
                 boxShadow: `none`,

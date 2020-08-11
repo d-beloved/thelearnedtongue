@@ -23,6 +23,12 @@ $mainColor: #7d4c46;
     margin-bottom: 1.75rem;
     margin-top: -1.75rem;
 
+    .readTime {
+      color: grey;
+      font-size: 0.75rem;
+      margin-left: 5px;
+    }
+
     @include mobile {
       font-size: 12px;
     }

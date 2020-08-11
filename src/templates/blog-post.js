@@ -22,7 +22,8 @@ class BlogPostTemplate extends React.Component {
         <div className={styles.post}>
           <h1 className={styles.heading}>{post.frontmatter.title}</h1>
           <p className={styles.date}>
-            {post.frontmatter.date}
+            {post.frontmatter.date} {'.'}
+            <span className={styles.readTime}>{post.fields.readingTime.text}</span>
           </p>
           <MDXRenderer>{post.body}</MDXRenderer>
           <hr
@@ -43,15 +44,15 @@ class BlogPostTemplate extends React.Component {
           >
             <li style={{color: "#7d4c46"}}>
               {previous && (
-                <Link style={{color: "#7d4c46"}} to={`/blog${previous.fields.slug}`} rel="prev">
-                  ← {previous.frontmatter.title}
+                <Link style={{color: "#7d4c46", fontWeight: "bold"}} to={`/blog${previous.fields.slug}`} rel="prev">
+                  ← Prev.
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link style={{color: "#7d4c46"}} to={`/blog${next.fields.slug}`} rel="next">
-                  {next.frontmatter.title} →
+                <Link style={{color: "#7d4c46", fontWeight: "bold"}} to={`/blog${next.fields.slug}`} rel="next">
+                  Next →
                 </Link>
               )}
             </li>
@@ -78,8 +79,13 @@ export const pageQuery = graphql`
       body
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMM. DD, YYYY")
         description
+      }
+      fields {
+        readingTime {
+          text
+        }
       }
     }
   }

@@ -61,6 +61,7 @@ module.exports = {
         plugins: [`gatsby-remark-images`],
       },
     },
+    `gatsby-remark-reading-time`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -91,5 +92,5 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`
     },
-  ],
+  ]
 }

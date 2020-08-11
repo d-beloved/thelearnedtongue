@@ -25,7 +25,9 @@ class Blog extends React.Component {
                     {title}
                   </Link>
                 </h3>
-                <small className={styles.date}>{node.frontmatter.date}</small>
+                <small className={styles.date}>{node.frontmatter.date} {"."}
+                  <span className={styles.readTime}>{node.fields.readingTime.text}</span>
+                </small>
                 <p className={styles.text}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
@@ -57,9 +59,14 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMM. DD, YYYY")
             title
             description
+          }
+          fields {
+            readingTime {
+              text
+            }
           }
         }
       }
