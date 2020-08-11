@@ -1,7 +1,7 @@
 ---
 path: Relationships
 date: 2020-08-06T14:22:18.361Z
-title: Relationships that Define a Man.
+title: Relationships that Define a Man
 description: Every man is defined by three relationships; relationship with God,
   relationship with self, and relationship with people. Each of these
   relationships tell a lot about who he/she is, what he/she does and who he/she

@@ -1,7 +1,7 @@
 ---
 path: Relationships
 date: 2020-08-06T18:06:11.069Z
-title: Stages of a Relationship.
+title: Stages of a Relationship
 description: There are two major stages of a relationship; The Acquaintance
   Stage and The Intimacy Stage.
 ---

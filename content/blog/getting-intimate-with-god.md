@@ -1,7 +1,7 @@
 ---
 path: Intimacy
 date: 2020-08-06T18:38:10.317Z
-title: "Getting Intimate With God. "
+title: "Getting Intimate With God"
 description: What next after coming to the point of salvation? It's time to
   build a relationship. It's time to know the One you've come to accept to be
   your Lord and Savior.
