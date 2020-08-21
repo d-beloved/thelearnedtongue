@@ -27,6 +27,10 @@ $mainColor: #7d4c46;
     margin: 0 auto;
     min-height: 100vh;
 
+    @include mobile {
+      width: 90vw;
+    }
+
     .inside {
       z-index: 1;
 
