@@ -1,17 +1,26 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import { Disqus, CommentCount } from "gatsby-plugin-disqus"
 
 import Layout from "../components/Layout/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import styles from './blogpost.module.scss'
+import styles from "./blogpost.module.scss"
 
 class BlogPostTemplate extends React.Component {
   render() {
+    const { location } = this.props
     const post = this.props.data.mdx
+    const config = this.props.data.site.siteMetadata
     const siteTitle = "View All Articles"
     const { previous, next } = this.props.pageContext
+
+    let disqusConfig = {
+      url: `${config.siteUrl + location.pathname}`,
+      identifier: post.id,
+      title: post.frontmatter.title,
+    }
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,8 +31,10 @@ class BlogPostTemplate extends React.Component {
         <div className={styles.post}>
           <h1 className={styles.heading}>{post.frontmatter.title}</h1>
           <p className={styles.date}>
-            {post.frontmatter.date} {'.'}
-            <span className={styles.readTime}>{post.fields.readingTime.text}</span>
+            {post.frontmatter.date} {"."}
+            <span className={styles.readTime}>
+              {post.fields.readingTime.text}
+            </span>
           </p>
           <MDXRenderer>{post.body}</MDXRenderer>
           <hr
@@ -33,7 +44,7 @@ class BlogPostTemplate extends React.Component {
           />
 
           <ul
-          className={styles.movement}
+            className={styles.movement}
             style={{
               display: `flex`,
               flexWrap: `wrap`,
@@ -42,22 +53,32 @@ class BlogPostTemplate extends React.Component {
               padding: 0,
             }}
           >
-            <li style={{color: "#7d4c46"}}>
+            <li style={{ color: "#7d4c46" }}>
               {previous && (
-                <Link style={{color: "#7d4c46", fontWeight: "bold"}} to={`/blog${previous.fields.slug}`} rel="prev">
+                <Link
+                  style={{ color: "#7d4c46", fontWeight: "bold" }}
+                  to={`/blog${previous.fields.slug}`}
+                  rel="prev"
+                >
                   ← Prev.
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link style={{color: "#7d4c46", fontWeight: "bold"}} to={`/blog${next.fields.slug}`} rel="next">
+                <Link
+                  style={{ color: "#7d4c46", fontWeight: "bold" }}
+                  to={`/blog${next.fields.slug}`}
+                  rel="next"
+                >
                   Next →
                 </Link>
               )}
             </li>
           </ul>
         </div>
+        <CommentCount config={disqusConfig} placeholder={"..."} />
+        <Disqus config={disqusConfig} />
       </Layout>
     )
   }
@@ -71,6 +92,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        siteUrl
       }
     }
     mdx(fields: { slug: { eq: $slug } }) {
