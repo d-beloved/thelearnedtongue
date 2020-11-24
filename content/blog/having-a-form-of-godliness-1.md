@@ -5,6 +5,8 @@ title: Having a Form of Godliness? (1)
 description: It’s usual for other people to have an incorrect view of a person,
   but should an individual also have an incorrect view of himself?
 ---
+![](../assets/background_resized.jpeg)
+
 Have you come across the words in the topic before and ever wondered what they really mean? Let’s take a closer look together.
 
 What is godliness? Godliness is well-defined by the word “piety.” Piety means devotion to God i.e. a feeling of strong love or loyalty to God that involves the use of time, money, energy, etc. (Merriam-Webster dictionary). In summary, **godliness is the total dedication of life and resources to God**.
