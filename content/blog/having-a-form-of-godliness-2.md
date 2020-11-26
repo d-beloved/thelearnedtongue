@@ -1,0 +1,32 @@
+---
+path: Relationship With God
+date: 2020-11-26T07:05:45.596Z
+title: Having a Form of Godliness? (2)
+description: The truth remains the truth; there’s no “maybe” in God and His
+  Kingdom. And yes, the greatest victim of deception is “myself.”
+---
+![](../assets/photo-1512548438457-4c9584d3766b.jpg)
+
+Do you remember where we stopped the last time ( https://thelearnedtongue.com/blog/having-a-form-of-godliness-1/ )?
+
+2 Corinthians 13:5- *Examine yourselves, whether ye be in faith; prove your own selves. Know ye not your own selves, how that Jesus Christ is in you, except ye be reprobates?*
+
+To examine one’s self is to thoroughly test or discipline with the aim to know, without a doubt, what one is, has, or knows. The word “examine” is the root of examination, and examination questions are usually set with a curriculum in mind. The curriculum is expected to have been well-taught before the day of the examination. This is a picture of what happens daily to every human on earth. We answer different examination questions as we make our daily choices and go through several temptations and situations. These choices, temptations, and situations are never beyond our capability, even if they seem so (I Cor. 10:13). But, just like some students who have been well-taught still fail the questions, most people fail at times like this, with failure to pay quality attention, forgetfulness, or lack of diligence as top reasons.
+
+Back to the Israelites, we will look briefly into some things that left them at the mercy of the Philistines.
+
+Let’s start with the issue of the Ark. For previous battles where the Ark was involved, there was always a commandment on how it should be treated; whether it should lead, or should be behind armed men. In clear terms, **the Ark was never meant to be an after-thought**. Relating with the Ark, which is a symbol of God’s presence, in this way depicts a lack of knowledge about the true essence of the Ark (a symbol!), and shows idol worship. This issue is more serious because it was even the elders that brought the suggestion of bringing the Ark. They simply saw the Ark as **something** that brings victory whenever it is carried or present. Shouldn’t the elders have known better? **Indeed, great men are not always wise; neither do the aged understand judgment. It is the inspiration of the Almighty that gives understanding (Job 32:8-9), and it is by understanding we ought to live.**
+
+This is the same way a lot of believers now relate to things that pertain to our faith. We pray so that the devil won’t attack us, we sleep with the Bible with us as means of protection, we give so that we can receive, we love people so they can love us, we try to live religiously to avoid hell, etc. As much as some of these reasons are not wrong is as much as they become wrong when they are the primary reasons for doing the things we do. **The things we do to show our devotion to God should never be done just to fulfill all righteousness or to get a particular victory; they must be done from knowing God (that the Ark symbolizes), and from obedience to how He wants those things done.**
+
+Secondly, two priests who were Prophet Eli’s sons, Hophni and Phinehas, were the ones who accompanied the Ark to the battlefield. On failing to enquire from God on what to do, or holding back the Ark from being disrespected as another idol, the Prophet sent the Ark with his two sons. These two sons are the ones that the Bible recorded as have done great sins before the Lord and caused men to abhor the offering of the Lord (I Sam. 2:17). In simple terms, they were given to sinful acts and had led the people to become sinful. **Another quick lesson; a people will always reflect the image of the leader**. Just like Phinehas wife rightly concluded in I Sam. 4:21-22, the glory had departed; only symbols were left. God is no respecter of persons (Acts 10:34); He will not behold iniquity or violate His principles. **Symbols will remain symbols if the God of the symbol is relegated to the background**. So, God will always call for repentance if we will see His Presence in our lives and circumstances (I Chro. 7:14).
+
+The Israelites failed to settle these major internal issues before going forward to meet an external enemy. One thing we need to know is that, just like how private body parts are more delicate than the external ones, in like manner, the inner struggles we have in our spirits can cause more harm than the problems we see without. Let him that thinks he stands take heed! (I Cor. 10:12). If the internals are dealt with, victory is sure over the externals.
+
+So, if the Bible says that certain people have a form of godliness, then, it means they appear to be pious, in actual fact, they are pious in religious activities, especially when in the view of others, but inwardly, they are far from being pious. They are dedicated to religion, but far from Christ. They are devoted to religious institutions and their activities, but far from obeying God. They are quick to publicly declare their status as Christians outside, but they can no longer remember when last they met with Christ privately. They have begun to give excuses to stray away from their consecration (the Israelites began to abhor the offering of God). They still pray, but their prayers are now more selfish than before. Pride, bitterness, anger, jealousy, busyness, idolatry, lusts, etc. are subtly creeping in.
+
+The truth remains the truth; there’s no “maybe” in God and His Kingdom. And yes, the greatest victim of deception is “myself.” Some of these things happen so subtly that we need to daily cry like King David did in Psalms 139:23-24.
+
+*Search me, oh God, and know my heart: try me, and know my thoughts: and see if there be any wicked way in me, and lead me in the way everlasting.*
+
+**We can’t avoid daily confrontations with the enemy, he never stops going about, but we must be able to say like Jesus, “The prince of this world has nothing in me.” John 14:30. This shows that you are submitting to God, and then, you can resist the devil (James 4:7)**. This is what the children of Israel eventually did in I Samuel chapter 7, where they put away all idols and repented of their sins. What followed? The enemies (Philistines) thought they would defeat them like before, but this time, they were not only smitten, they were totally subdued, and they came no more into the coasts of Israel.
