@@ -4,8 +4,8 @@ date: 2020-12-03T15:53:22.027Z
 title: A Peep into the Virtuous Woman described in Proverbs 31.
 description: God did not create you to be less of the picture we have seen in
   the virtuous woman. Stop following the pictures painted all around; follow
-  God's picture of you, and be obedient as He leads you to be who He created you
-  to be.
+  God's picture of you, and be obedient as He leads you to become who He created
+  you to be.
 ---
 ![](../assets/photo-1515191107209-c28698631303.jpg)
 
@@ -80,4 +80,4 @@ Favor in the verse above depicts kindness; actions that we do to people in a bid
 * How often do you deny Him in your actions?
 * Can you trust God with your life?
 
-If you're having difficulty answering these questions, **you're beginning to eat the bread of idleness**. Proverbs 31:27. God did not create you to be less of the picture we have seen in the virtuous woman. Stop following the pictures painted all around; follow God's picture of you, and be obedient as He leads you to be who He created you to be.
+If you're having difficulty answering these questions, **you're beginning to eat the bread of idleness**. Proverbs 31:27. God did not create you to be less of the picture we have seen in the virtuous woman. Stop following the pictures painted all around; follow God's picture of you, and be obedient as He leads you to become who He created you to be.
